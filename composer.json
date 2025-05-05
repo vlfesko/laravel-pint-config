@@ -1,0 +1,20 @@
+{
+    "name": "vlfesko/laravel-pint-config",
+    "description": "Laravel Pint configuration,",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Fesko",
+            "email": "vladimir.fesko@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/pint": "*"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
