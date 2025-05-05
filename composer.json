@@ -1,6 +1,6 @@
 {
     "name": "vlfesko/laravel-pint-config",
-    "description": "Laravel Pint configuration,",
+    "description": "Laravel Pint configuration.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
     "type": "library",
     "license": "MIT",
