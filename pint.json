@@ -1,7 +1,25 @@
 {
     "preset": "laravel",
     "rules": {
+        "attribute_empty_parentheses": true,
+        "backtick_to_shell_exec": true,
+        "class_reference_name_casing": true,
         "declare_strict_types": true,
+        "fully_qualified_strict_types": true,
+        "global_namespace_import": {
+            "import_classes": true,
+            "import_functions": true,
+            "import_constants": true
+        },
+        "lowercase_cast": true,
+        "lowercase_keywords": true,
+        "lowercase_static_reference": true,
+        "mb_str_functions": true,
+        "modernize_strpos": true,
+        "modernize_types_casting": true,
+        "new_with_parentheses": true,
+        "no_superfluous_elseif": true,
+        "no_useless_else": true,
         "ordered_class_elements": {
             "order": [
                 "use_trait",
@@ -24,6 +42,8 @@
                 "method_private_static",
                 "method_private"
             ]
-        }
+        },
+        "self_accessor": true,
+        "visibility_required": true
     }
 }
